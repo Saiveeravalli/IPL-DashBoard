@@ -1,0 +1,25 @@
+.team-img {
+  width: 60px;
+}
+.l-1 {
+  width: 280px;
+  height: 130px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  background-color: #ffffff33;
+  border: 2px solid #475569;
+  border-radius: 10px;
+  padding: 10px;
+}
+.name {
+  color: #ffffff;
+  font-family: Bree Serif;
+  margin-left: 5px;
+}
+.card-link {
+  outline: none;
+  text-decoration: none;
+}

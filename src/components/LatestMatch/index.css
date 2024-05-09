@@ -1,0 +1,90 @@
+.flex-box {
+  width: 1000px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Bree Serif;
+  background-color: #1e293b;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 15px;
+}
+
+.latest-Heading {
+  font-size: 20px;
+  color: #fff;
+  font-family: Bree Serif;
+  margin-left: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .flex-box {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.m-1 {
+  width: 250px;
+  padding-left: 20px;
+  color: #fff;
+}
+.m-2 {
+  padding-right: 20px;
+  color: #fff;
+  padding-top: 40px;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 768px) {
+  .team-logo-img {
+    width: 160px;
+    margin-left: 50px;
+  }
+}
+
+.team-logo-img {
+  width: 200px;
+  margin-left: 90px;
+}
+.hr-line {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .hr-line {
+    display: flex;
+    width: 100%;
+  }
+  .l-heading {
+    font-size: 20px;
+  }
+  .flex-box {
+    height: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .date-l {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .team-inn {
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .m-2 {
+    padding-left: 20px;
+  }
+}
+.Match-list-box {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 90px;
+}
